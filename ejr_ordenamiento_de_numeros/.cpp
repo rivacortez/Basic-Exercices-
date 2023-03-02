@@ -21,9 +21,9 @@ int main()
 			{//proceso de cambio
 
 				                                 // n1   n2
-				aux = numeracion[j];//aux=nj    //  4     3
-				numeracion[j] = numeracion[j+1];//  4     3
-				numeracion[j+1] = aux;          //  3     4//version final del cambio
+				aux = numeracion[j];//aux=nj    //  x  = 3
+				numeracion[j] = numeracion[j+1];//  3  = 4
+				numeracion[j+1] = aux;          //  4  = x   x//version final del cambio
 			}
 		}
 	}
